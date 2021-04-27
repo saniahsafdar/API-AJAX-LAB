@@ -1,0 +1,45 @@
+*{
+    border: 3 px solid black;
+}
+body {
+
+    font-family: sans-serif;
+    padding: 0 80px;
+    display: flex;
+  }
+  
+  h2 {
+    font-size: 150%;
+    text-align: center;
+  }
+  
+  a {
+     padding: 10px;
+     margin: 10px;
+     text-align: center;
+     justify-content: space-between;
+  }
+
+  img {
+      align-items: flex-end;
+
+  }
+
+#main {
+    margin: 15px;
+    padding: 15px;
+} 
+.post {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 0 30px;
+    border-bottom: 4px dotted crimson;
+    padding: 0 0 5px;
+}
+.post:last-child {
+    border-bottom: none;
+  }
+.post h3 {
+    margin: 0;
+  }
+  
